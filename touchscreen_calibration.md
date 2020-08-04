@@ -1,5 +1,8 @@
 # Touchscreen Calibration in Debian9
 
+Thanks to KurtJacobson who wrote this gist (https://gist.github.com/KurtJacobson/37288a0300a9c1b3e859c8dcff403300)
+
+
 Unfortunately [`xinput-calibrator`][1] does not work at all for calibrating a 
 touchscreen in Debian9. This is apparently because X server now uses libinput 
 to handle input devices instead of evdev. I spent huge amount of trying to
